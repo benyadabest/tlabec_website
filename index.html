@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>Treigning Lab East Coast</title>
+<meta name = "description" content = "World Renowned Treigning Lab Training System, Affiliate led by Frank Perrelli"/>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -68,7 +69,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         color: darkgrey;
     }
 
-  
+    .w3-bar .w3-bar-item {
+      transition: color 0.3s, background-color 0.3s; /* Optional for smooth transition */
+    }
+
+    .w3-bar .w3-bar-item:focus, .w3-bar .w3-bar-item:active, .w3-bar .w3-bar-item:visited {
+      color: inherit !important;
+      background-color: inherit !important;
+      box-shadow: none !important;
+    }
     
 </style>
 </head>
@@ -78,7 +87,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-black" style="padding-bottom: 0;"><img style="height: 40px; width: 40px;" src="images/logo.png"></a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large ">ABOUT</a>
     <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-padding-large">TEAM</a>
@@ -87,7 +96,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="#about" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
     <a href="#team" class="w3-bar-item w3-button w3-padding-large">TEAM</a>
     <a href="#athletes" class="w3-bar-item w3-button w3-padding-large">ATHLETES</a>
@@ -97,7 +106,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container w3-white w3-center" style="padding:128px 16px">
-    <img src="images/podlogo.png" class="w3-center w3-image responsive-img" style="height:250px; width: auto;" data-aos="fade-down">
+    <img src="images/tleclogo2.png" class="w3-center w3-image responsive-img" style="height:250px; width: auto;" data-aos="fade-down">
     <h1 class="w3-margin w3-jumbo" data-aos="fade-left">Treigning Lab East Coast</h1>
     <p class="w3-xlarge" data-aos="fade-right">A Licensed Affiliate of the World Renowned Treigning Lab Training System</p>
     <a href="#contact" class="w3-button w3-red w3-padding-large w3-large w3-margin-top" data-aos="fade-up">Get Started</a>
